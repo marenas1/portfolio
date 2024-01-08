@@ -220,7 +220,27 @@
     
   }
 
+  @media screen and (max-width:4500px){
+    .flexCardContainer{
+      display: flex;
+    }
+    .videoApp{
+      margin: auto;
+      width: 650px;
+    }
+  }
+  @media screen and (max-width:800px){
+    .flexCardContainer{
+      display: inline;
+    }
+    .videoApp{
+      margin: auto;
+      width: 300px;
+    }
+  }
+
   @media screen and (max-width:500px){
+    
     .mobileSkills{
         display: inline;
     }
